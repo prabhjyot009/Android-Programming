@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ab32423-bc68-482d-a5eb-980af95d832f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Android.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorApp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorApp/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorApp/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorApp/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorApp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorApp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorApp/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorApp/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorApp/app/src/main/java/com/example/calculatorapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorApp/app/src/main/java/com/example/calculatorapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorApp/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorApp/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorApp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorApp/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorApp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorApp/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorApp/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorApp/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/androidTest/java/com/example/snakegame/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/java/com/example/snakegame/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/app/src/test/java/com/example/snakegame/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake-Game/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/androidTest/java/com/example/upperlowerapp/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/java/com/example/upperlowerapp/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/app/src/test/java/com/example/upperlowerapp/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpperLowerApp/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2NBh3Cc7Bng01L6VAKSisF95Ayw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "D:/Dropbox/Study/GitHub/Android-Programming",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ab32423-bc68-482d-a5eb-980af95d832f" name="Changes" comment="" />
+      <created>1679143181768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679143181768</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
