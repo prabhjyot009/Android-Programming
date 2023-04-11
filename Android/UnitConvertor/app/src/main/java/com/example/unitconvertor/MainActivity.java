@@ -1,4 +1,4 @@
-package com.example.practice;
+package com.example.unitconvertor;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
