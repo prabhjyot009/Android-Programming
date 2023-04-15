@@ -23,6 +23,12 @@ public class ButtonClickEventOne extends AppCompatActivity {
         btn_one=(Button) findViewById(R.id.btn_one);
         tv_name=(TextView) findViewById(R.id.tv_name);
 
-        public void
+        btn_one.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String name=et_name.getText().toString();
+                tv_name.setText("Name:"+name);
+            }
+        });
     }
 }

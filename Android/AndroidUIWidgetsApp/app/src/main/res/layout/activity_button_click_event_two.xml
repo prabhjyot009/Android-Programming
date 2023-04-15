@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:text="Click Here"
         android:textSize="10dp"
+        android:onClick="getUserEmail"
         android:layout_marginTop="20dp"
         />
 
