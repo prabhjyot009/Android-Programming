@@ -27,7 +27,6 @@ public class ButtonClickEventTwo extends AppCompatActivity {
         public void getUserEmail(View view)
         {
             String email= et_email.getText().toString();
-            //tv_email.setText("Email:"+email);
-            Toast.makeText(getApplicationContext(), "Email:"+email, Toast.LENGTH_LONG).show();
+            tv_email.setText("Email:"+email);
         }
 }

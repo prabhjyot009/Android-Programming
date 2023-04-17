@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Android UI Widgets Form</string>
+
+    <string-array name="cities">
+        <item>Select City</item>
+        <item>Chandigarh</item>
+        <item>Panchkula</item>
+        <item>Mohali</item>
+    </string-array>
+
+</resources>
