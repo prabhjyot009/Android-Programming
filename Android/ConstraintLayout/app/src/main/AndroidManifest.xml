@@ -10,10 +10,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LayoutDemoOne"
+        android:theme="@style/Theme.ConstraintLayout"
         tools:targetApi="31">
         <activity
-            android:name=".demoone.LinearLayoutTemplate2"
+            android:name=".ConstraintLayoutDemo"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,25 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".demoone.LinearLayoutTemplate"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".demoone.LinearLayoutTwo"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".demoone.LinearLayoutOne"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
