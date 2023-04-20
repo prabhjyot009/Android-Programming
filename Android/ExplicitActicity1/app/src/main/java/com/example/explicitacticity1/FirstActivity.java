@@ -11,16 +11,24 @@ import android.widget.EditText;
 
 public class FirstActivity extends AppCompatActivity {
 
+    //EditText:
+    EditText et_name;
+    EditText et_email;
+    EditText et_phone;
+
+    //Button:
+    Button btn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
 
-        EditText et_name=findViewById(R.id.et_name);
-        EditText et_email=findViewById(R.id.et_email);
-        EditText et_phone=findViewById(R.id.et_phone);
+         et_name=(EditText) findViewById(R.id.et_name);
+         et_email=(EditText) findViewById(R.id.et_email);
+         et_phone=(EditText) findViewById(R.id.et_phone);
 
-        Button btn=findViewById(R.id.btn);
+         btn=(Button) findViewById(R.id.btn);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -23,7 +23,7 @@ public class SecondActivity extends AppCompatActivity {
         TextView tv_result=findViewById(R.id.tv_result);
         Button btn2=findViewById(R.id.btn2);
 
-        tv_result.setText("Name:"+name+ "\nEmail:"+email+ "\nPhone"+phone);
+        tv_result.setText("Name: "+name+ "\nEmail: "+email+ "\nPhone: "+phone);
 
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override

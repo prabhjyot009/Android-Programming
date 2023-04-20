@@ -1,5 +1,4 @@
 package com.example.calculator2;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
@@ -10,7 +9,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import java.util.Scanner;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     Button b1,b2,b3,b4,b5,b6;
     EditText e1,e2;
@@ -36,10 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         b4.setOnClickListener(this);
         b5.setOnClickListener(this);
         b6.setOnClickListener(this);
-
-
     }
-
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
@@ -49,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 String n2 = e2.getText().toString();
                 int num2 = Integer.parseInt(n2);
                 int total = num2 + num1;
-                t1.setText(" " + total);
+                t1.setText("Addition is: " + total);
                 break;
             }
             case R.id.b2: {
@@ -59,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 int num2 = Integer.parseInt(n2);
                 int total = num1 - num2;
                 t1.setText("Subtraction is  " + total);
+                break;
             }
             case R.id.b3:
             {
@@ -76,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 String n2 = e2.getText().toString();
                 int num2 = Integer.parseInt(n2);
                 int total = num1 / num2;
-                t1.setText(" " + total);
+                t1.setText("Division is" + total);
                 break;
 
             case R.id.b5:
@@ -89,23 +85,3 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
