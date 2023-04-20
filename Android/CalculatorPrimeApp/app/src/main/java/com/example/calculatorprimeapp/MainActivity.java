@@ -1,4 +1,4 @@
-package com.example.calculatorexam;
+package com.example.calculatorprimeapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -39,6 +39,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         b6.setOnClickListener(this);
     }
 
+    static  boolean isPrime(int num)
+    {
+        if(num<=1)
+        {
+            return false;
+        }
+        for(int i=2;i<=num/2;i++)
+        {
+            if((num%i)==0)
+                return  false;
+        }
+        return true;
+    }
+
     @Override
     public void onClick(View src){
         int id;
@@ -50,6 +64,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             int num2=Integer.parseInt(n2);
             int total=num1+num2;
             tv.setText("Addition is: "+total);
+            if(isPrime(total)) {
+                tv.setText("Addition is  " + total+" and it is prime");
+            }
+            else{
+                tv.setText("Addition is  " + total+" and it is not prime");
+            }
         }
         else if (id==R.id.b2){
             String n1=e1.getText().toString();
@@ -58,6 +78,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             int num2=Integer.parseInt(n2);
             int total=num1-num2;
             tv.setText("Subtraction is: "+total);
+            if(isPrime(total)) {
+                tv.setText("Subtraction is  " + total+" and it is prime");
+            }
+            else{
+                tv.setText("Subtraction is  " + total+" and it is not prime");
+            }
         }
         else if (id==R.id.b3){
             String n1=e1.getText().toString();
@@ -66,6 +92,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             int num2=Integer.parseInt(n2);
             int total=num1*num2;
             tv.setText("Multiplication is: "+total);
+            if(isPrime(total)) {
+                tv.setText("Multiplication is  " + total+" and it is prime");
+            }
+            else{
+                tv.setText("Multiplication is  " + total+" and it is not prime");
+            }
+
         }
         else if (id==R.id.b4){
             String n1=e1.getText().toString();
@@ -74,7 +107,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             int num2=Integer.parseInt(n2);
             int total=num1/num2;
             tv.setText("Division is: "+total);
-
+            if(isPrime(total)) {
+                tv.setText("Division is  " + total+" and it is prime");
+            }
+            else{
+                tv.setText("Division is  " + total+" and it is not prime");
+            }
         }
         else if (id==R.id.b5){
             e1.setTextColor(Color.RED);
