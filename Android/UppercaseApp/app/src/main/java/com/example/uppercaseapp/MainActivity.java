@@ -25,13 +25,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View view){
                 String name=e1.getText().toString();
-                int count=0;
-                for (int i=0;i<name.length();i++){
-                    char ch=name.charAt(i);
-                    if (ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
-                        count++;
-                    }
-                }
-                tv.setText("Vovels are: "+count);
+                tv.setText(name.toLowerCase());
             }
         }
