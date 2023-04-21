@@ -2,6 +2,7 @@ package com.example.uppercaseapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,5 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onClick(View view){
                 String name=e1.getText().toString();
                 tv.setText(name.toLowerCase());
+                e1.setTextColor(Color.RED);
+                tv.setTextColor(Color.BLUE);
             }
         }
