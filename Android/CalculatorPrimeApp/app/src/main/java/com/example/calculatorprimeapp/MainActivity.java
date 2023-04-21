@@ -2,6 +2,7 @@ package com.example.calculatorprimeapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -14,7 +15,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     EditText e1,e2;
     TextView tv;
-    Button b1,b2,b3,b4,b5,b6;
+    Button b1,b2,b3,b4,b5,b6,b7;
     LinearLayout l1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         b4=findViewById(R.id.b4);
         b5=findViewById(R.id.b5);
         b6=findViewById(R.id.b6);
+        b7=findViewById(R.id.b7);
         l1=findViewById(R.id.l1);
         b1.setOnClickListener(this);
         b2.setOnClickListener(this);
@@ -37,6 +39,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         b4.setOnClickListener(this);
         b5.setOnClickListener(this);
         b6.setOnClickListener(this);
+
+        b7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(intent);
+            }
+        });
     }
 
     static  boolean isPrime(int num)
