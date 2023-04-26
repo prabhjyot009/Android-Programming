@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         b2.setOnClickListener(this);
     }
 
-    @Override
+    @Override   
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.b1:
