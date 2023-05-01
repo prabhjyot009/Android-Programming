@@ -13,7 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Circle"
-        android:onClick="drawCircle"/>
+        android:onClick="drawCircle"
+        />
 
     <Button
         android:layout_width="wrap_content"
