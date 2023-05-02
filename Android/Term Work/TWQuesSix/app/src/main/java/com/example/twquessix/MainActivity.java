@@ -1,50 +1,41 @@
 package com.example.twquessix;
 
-//Write an Android code to design a password with the combination of letter, digit and special character.
-
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
-import java.util.regex.Pattern;
-
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.widget.TextView;
+import java.util.Random;
 public class MainActivity extends AppCompatActivity {
-
-    EditText password;
-    Button submit;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Button generateButton = findViewById(R.id.generate_button);
+        TextView passwordTextView = findViewById(R.id.password_textview);
 
-        password = findViewById(R.id.password);
-        submit = findViewById(R.id.submit);
-
-        submit.setOnClickListener(new View.OnClickListener() {
+        generateButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                String pass = password.getText().toString();
-                if (isValidPassword(pass)) {
-                    Toast.makeText(getApplicationContext(), "Password is valid", Toast.LENGTH_SHORT).show();
-                } else {
-                    Toast.makeText(getApplicationContext(), "Password is invalid", Toast.LENGTH_SHORT).show();
-                }
+            public void onClick(View view) {
+                String password = PasswordGenerator.generatePassword(12);
+                passwordTextView.setText(password);
             }
         });
     }
-
-    public static boolean isValidPassword(String password) {
-        String regex = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{8,}$";
-        Pattern p = Pattern.compile(regex);
-        if (password == null) {
-            return false;
+}
+class PasswordGenerator {
+    private static final String LOWERCASE_LETTERS = "abcdefghijklmnopqrstuvwxyz";
+    private static final String UPPERCASE_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    private static final String DIGITS = "0123456789";
+    private static final String SPECIAL_CHARACTERS = "!@#$%^&*()_-+=~`|\\{}[]:\";'<>?,./";
+    public static String generatePassword(int length) {
+        String allowedCharacters = LOWERCASE_LETTERS + UPPERCASE_LETTERS + DIGITS + SPECIAL_CHARACTERS;
+        Random random = new Random();
+        StringBuilder password = new StringBuilder(length);
+        for (int i = 0; i < length; i++) {
+            int randomIndex = random.nextInt(allowedCharacters.length());
+            password.append(allowedCharacters.charAt(randomIndex));
         }
-        return p.matcher(password).matches();
+        return password.toString();
     }
 }
-
-// Path: app\src\main\res\layout\activity_main.xml using Linear Layout
