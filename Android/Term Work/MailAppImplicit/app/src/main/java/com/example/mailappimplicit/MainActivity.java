@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 String subject = etSubject.getText().toString();
                 String message = etMessage.getText().toString();
 
-                Intent intent = new Intent(Intent.ACTION_SENDTO);
+                Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.putExtra(Intent.EXTRA_EMAIL, new String[]{to});
                 intent.putExtra(Intent.EXTRA_SUBJECT, subject);
                 intent.putExtra(Intent.EXTRA_TEXT, message);
