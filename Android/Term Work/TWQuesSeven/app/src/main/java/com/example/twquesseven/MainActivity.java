@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         //Initializing the fragment transaction
         fragmentTransaction = fragmentManager.beginTransaction();
 
-        //Initializing the fragments
+        //Initializing the fragmentsa
         fragmentOne = new FragmentOne();
         fragmentTwo = new FragmentTwo();
         fragmentThree = new FragmentThree();
