@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <VideoView
+        android:id="@+id/vv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/b14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video Capture"/>
+
+    <Button
+        android:id="@+id/b15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image Capture"/>
+
+    <Button
+        android:id="@+id/b16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video Capture 2"/>
+
+    <Button
+        android:id="@+id/b17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Video"
+        android:enabled="false"/>
+
+</LinearLayout>
