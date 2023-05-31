@@ -14,7 +14,7 @@ import android.widget.VideoView;
 public class MainActivity extends AppCompatActivity {
     VideoView vv1;
     Uri uri1;
-    Button bt14,bt15,bt16,bt17,btn18;
+    Button bt14,bt15,bt16,bt17;
 
     public static int capture_request= 1;
 
@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
         bt15 = findViewById(R.id.b15);
         bt16 = findViewById(R.id.b16);
         bt17 = findViewById(R.id.b17);
-        btn18 = findViewById(R.id.b18);
 
 
         bt14.setOnClickListener(new View.OnClickListener() {
