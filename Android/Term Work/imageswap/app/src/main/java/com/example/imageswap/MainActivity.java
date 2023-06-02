@@ -16,8 +16,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(this, "Made By Demon", Toast.LENGTH_SHORT).show();
-
         b1=findViewById(R.id.b1);
         i1=findViewById(R.id.i1);
         b1.setOnClickListener(new View.OnClickListener() {
