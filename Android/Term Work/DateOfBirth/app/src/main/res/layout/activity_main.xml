@@ -4,6 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
+    android:background="#8C9EFF"
+    android:padding="20dp"
     tools:context=".MainActivity">
 
     <EditText
@@ -11,6 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Year"
+        android:textAlignment="center"
+        android:backgroundTint="#FFFF8D"
         android:inputType="number"/>
 
     <EditText
@@ -18,19 +23,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Month"
+        android:textAlignment="center"
+        android:backgroundTint="#FFFF8D"
         android:inputType="number"/>
 
     <EditText
         android:id="@+id/et3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
         android:hint="Enter Day"
+        android:backgroundTint="#FFFF8D"
         android:inputType="number"/>
 
     <Button
         android:id="@+id/btn"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calculate Age"/>
+        android:text="Calculate Age"
+        android:textColor="@color/black"
+         android:backgroundTint="#FFFF8D"
+        android:layout_marginTop="30dp"
+        />
 
 </LinearLayout>
