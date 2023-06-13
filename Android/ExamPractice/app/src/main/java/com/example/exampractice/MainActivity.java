@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Random;
 
@@ -34,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra(Intent.EXTRA_SUBJECT, "Random Number");
             intent.putExtra(Intent.EXTRA_TEXT,""+randomNumber);
             intent.setType("message/rfc822");
-
             startActivity(Intent.createChooser(intent, "Choose an Email client :"));
         });
     }
