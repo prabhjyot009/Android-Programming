@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:textAlignment="center"
-            android:text="UpperLowerCase Convertor"
+            android:text="RandomNumber Generator"
             android:textSize="30dp"
             />
     </LinearLayout>
@@ -30,18 +30,19 @@
         android:gravity="center"
         >
         <EditText
-            android:id="@+id/et1"
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter Text"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
             android:gravity="center"
             android:textSize="20dp"
             />
         <Button
-            android:id="@+id/b1"
+            android:id="@+id/send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Convert"
+            android:text="Send"
             android:textSize="20dp"
             />
     </LinearLayout>
